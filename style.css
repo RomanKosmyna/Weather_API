@@ -1,0 +1,123 @@
+body {
+    background-image: url("img/1.webp");
+    background-size: cover;
+    margin: 0;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px auto 0;
+    font-size: 24px;
+    border-top: 8px solid #ccccff;
+
+}
+
+.cityInfo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 6px;
+}
+
+.localName {
+    width: 23%;
+    font-size: 15px;
+    color: #ccccff;
+    text-align: center;
+}
+
+.localNameBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cityContainer {
+    width: 27%;
+    background: #000061;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5%;
+    border: 5px solid #ccccff;
+}
+
+.cityInput {
+    width: 25%;
+    margin-top: 150px;
+    padding: 8px;
+    background: #000061;
+    color: white;
+    border: 5px solid #ccccff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#cityNameBtn {
+    width: 20%;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background: #000061;
+    border: 5px solid #ccccff;
+    font-size: 20px;
+}
+
+#cityNameBtn:hover {
+    background: #ccccff;
+    color: black;
+    border: 5px solid #000061;
+}
+
+.aForMoreInfo {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 4px solid #ccccff;
+}
+
+.aForMoreInfo:hover {
+    color: yellow;
+    border-bottom: 4px solid orange;
+}
+
+.objectKeyInfo {
+    color: #000080;
+}
+
+.fullInfoContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: "Agency FB", sans-serif;
+}
+
+.infoBlock {
+    width: 25%;
+    margin: 0 10px;
+    font-size: 24px;
+    color: #00004d;
+}
+
+.objectKeyInfo {
+    font-size: 18px;
+    margin-left: 30px;
+    border-bottom: 3px solid darkblue;
+}
+
+.cityTitle {
+    margin: 20px 0;
+    font-size: 30px;
+    color: darkblue;
+    border-bottom: 5px solid #ccccff;
+}
